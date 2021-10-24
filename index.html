@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notflix - The Broken Netflix</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav" id="nav">
+        <img src="images/notflix-logo.png" alt="" class="nav__logo">
+        <img src="images/gdsc.jpg" alt="" class="nav__right">
+    </div>
+    <!-- Header -->
+    <div class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">Eternals</h1>
+            <div class="banner__buttons">
+                <button onclick="location.href='https://www.youtube.com/watch?v=x_me3xsvDgk'" type="button" class="banner__button">Play</button>
+            </div>
+            <div class="banner__description">
+                The Eternals are a race of god-like beings locked in a millennium-old conflict with the less evolved Deviants and their originators, the Celestials.
+            </div>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </div>
+
+    <!-- Popular Movies -->
+    <div class="row">
+        <h2>Popular Movies</h2>
+        <div class="row__posters">
+            <img src="images/large-movie1.jpg" alt="" class="row__poster row__posterLarge" id="img1">
+            <img src="images/large-movie2.jpg" alt="" class="row__poster row__posterLarge" id="img2">
+            <img src="images/large-movie3.jpg" alt="" class="row__poster row__posterLarge" id="img3">
+            <img src="images/large-movie4.jpg" alt="" class="row__poster row__posterLarge" id="img4"> 
+            <img src="images/large-movie5.jpg" alt="" class="row__poster row__posterLarge" id="img5">
+            <img src="images/large-movie6.jpg" alt="" class="row__poster row__posterLarge" id="img6">
+            <img src="images/large-movie7.jpg" alt="" class="row__poster row__posterLarge" id="img7">
+            <img src="images/large-movie8.jpg" alt="" class="row__poster row__posterLarge" id="img8">
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie1.jpg" alt="" >
+            <h1 class="modal__title">Daredevil</h1>
+            <div class="modal__description">
+                Blinded in a childhood accident, attorney-at-law Matt Murdock protects Hell's Kitchen as the masked vigilante, Daredevil. As a boy, Matt Murdock lost his sight—and gained superhuman senses—in an accident that taught him to live without fear.
+            </div>
+            <div class="modal__rating">
+                Rating : 8.6/10 IMDb
+            </div>
+        </div>        
+    </div>
+    <div id="myModal2" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie2.jpg" alt="" >
+            <h1 class="modal__title">Inception</h1>
+            <div class="modal__description">
+                A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.
+            </div>
+            <div class="modal__rating">
+                Rating : 8.8/10 IMDb
+            </div>
+        </div>        
+    </div>
+    <div id="myModal3" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie3.jpg" alt="" >
+            <h1 class="modal__title">Shang-Chi</h1>
+            <div class="modal__description">
+                Martial-arts master Shang-Chi confronts the past he thought he left behind when he's drawn into the web of the mysterious Ten Rings organization. Shang-Chi is forced to confront his past when his father Wenwu (Leung), the leader of the Ten Rings organization, draws Shang-Chi and his sister Xialing (Zhang) into a search for a mythical village.
+            </div>
+            <div class="modal__rating">
+                Rating : 7.9/10 IMDb
+            </div>
+        </div>        
+    </div>
+    <div id="myModal4" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie4.jpg" alt="" >
+            <h1 class="modal__title">Hobbs & Shaw</h1>
+            <div class="modal__description">
+                Fast & Furious Presents: Hobbs & Shaw is a 2019 American action film directed by David Leitch and written by Chris Morgan and Drew Pearce, from a story by Morgan. It is a spin-off of the Fast & Furious franchise set after the events of 2017's The Fate of the Furious. 
+            </div>
+            <div class="modal__rating">
+                Rating : 6.4/10 IMDb
+            </div>
+        </div>        
+    </div>
+    <div id="myModal5" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie5.jpg" alt="" >
+            <h1 class="modal__title">Avengers: Endgame</h1>
+            <div class="modal__description">
+                Catastrophe. Confusion. Loss. The overwhelming devastation caused by the mad Titan Thanos has left what remains of the Avengers reeling. Now, the team must assemble once more and do whatever it takes to restore the universe and bring those they lost back.            
+            </div>
+            <div class="modal__rating">
+                Rating : 8.4/10 IMDb
+            </div>
+        </div>        
+    </div>
+    <div id="myModal6" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie6.jpg" alt="" >
+            <h1 class="modal__title">The Conjuring 3</h1>
+            <div class="modal__description">
+                The Warrens investigate a murder that may be linked to a demonic possession. The Warrens investigate a murder that may be linked to a demonic possession. The Warrens investigate a murder that may be linked to a demonic possession.            
+            </div>
+            <div class="modal__rating">
+                Rating : 6.3/10 IMDb
+            </div>
+        </div>        
+    </div>
+    <div id="myModal7" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie7.jpg" alt="" >
+            <h1 class="modal__title">The Suicide Squad</h1>
+            <div class="modal__description">
+                In the film, a secret government agency led by Amanda Waller recruits imprisoned supervillains to execute dangerous black ops missions and save the world from a powerful threat in exchange for reduced sentences.            
+            </div>
+            <div class="modal__rating">
+                Rating : 7.3/10 IMDb
+            </div>
+        </div>        
+    </div>
+    <div id="myModal8" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img height=220px src="images/large-movie8.jpg" alt="" >
+            <h1 class="modal__title">Tenet</h1>
+            <div class="modal__description">
+                Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.            
+            </div>
+            <div class="modal__rating">
+                Rating : 7.4/10 IMDb
+            </div>
+        </div>        
+    </div>
+  </div>
+</body>
+<script>
+    var modal1 = document.getElementById('myModal1');
+    var modal2 = document.getElementById('myModal2');
+    var modal3 = document.getElementById('myModal3');
+    var modal4 = document.getElementById('myModal4');
+    var modal5 = document.getElementById('myModal5');
+    var modal6 = document.getElementById('myModal6');
+    var modal7 = document.getElementById('myModal7');
+    var modal8 = document.getElementById('myModal8');
+    var img1 = document.getElementById('img1');
+    var img2 = document.getElementById('img2');
+    var img3 = document.getElementById('img3');
+    var img4 = document.getElementById('img4');
+    var img5 = document.getElementById('img5');
+    var img6 = document.getElementById('img6');
+    var img7 = document.getElementById('img7');
+    var img8 = document.getElementById('img8');
+
+    img1.onclick = function(){
+        modal1.style.display = "block";
+    }
+    img2.onclick = function(){
+        modal2.style.display = "block";
+    }
+    img3.onclick = function(){
+        modal3.style.display = "block";
+    }
+    img4.onclick = function(){
+        modal4.style.display = "block";
+    }
+    img5.onclick = function(){
+        modal5.style.display = "block";
+    }
+    img6.onclick = function(){
+        modal6.style.display = "block";
+    }
+    img7.onclick = function(){
+        modal7.style.display = "block";
+    }
+    img8.onclick = function(){
+        modal8.style.display = "block";
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+    var span2 = document.getElementsByClassName("close")[1];
+    var span3 = document.getElementsByClassName("close")[2];
+    var span4 = document.getElementsByClassName("close")[3];
+    var span5 = document.getElementsByClassName("close")[4];
+    var span6 = document.getElementsByClassName("close")[5];
+    var span7 = document.getElementsByClassName("close")[6];
+    var span8 = document.getElementsByClassName("close")[7];
+
+    span.onclick = function() { 
+        modal1.style.display = "none";
+    }
+    span2.onclick = function() { 
+        modal2.style.display = "none";
+    }
+    span3.onclick = function() { 
+        modal3.style.display = "none";
+    }
+    span4.onclick = function() { 
+        modal4.style.display = "none";
+    }
+    span5.onclick = function() { 
+        modal5.style.display = "none";
+    }
+    span6.onclick = function() { 
+        modal6.style.display = "none";
+    }
+    span7.onclick = function() { 
+        modal7.style.display = "none";
+    }
+    span8.onclick = function() { 
+        modal8.style.display = "none";
+    }
+
+</script>
+</html>
